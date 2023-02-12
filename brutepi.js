@@ -53,7 +53,7 @@ cpts++;
 }
 sqpts++;
 pi = 4*(cpts/sqpts);
-if (pi == Math.PI) { console.log("\nWOWIE!\n"); hits++;}
+if (pi == Math.PI) { console.log("\nWOWIE!\n",i,x,y,d,cpts,sqpts); hits++;}
 
 //console.log(i,x,y,d,cpts,sqpts,pi);
 //console.timeEnd(i);
